@@ -1,8 +1,9 @@
-function addTwoNumbers() {
-   	var a = 5;
-	var b = 10;
+function addTwoNumbers(a, b) {
+
 	var result = a + b;
-	alert(result);
+  return result;
 }
 
-addTwoNumbers();
+alert (addTwoNumbers(5, 10));
+var y = addTwoNumbers(6, 12);
+alert(y);
